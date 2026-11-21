@@ -1,0 +1,48 @@
+{
+  "manifest": "road-delivery/1",
+  "format": "CVAT for images 1.1",
+  "guideline": "Road v1.0",
+  "name": "dinhhonghai",
+  "revision": 1,
+  "created_at": "2026-11-21T04:46:40+00:00",
+  "files": [
+    {
+      "file": "dinhhonghai-front.zip",
+      "bytes": 40340,
+      "sha256": "174f6485b53dca88d83757cddb0f8b4be4aaec4d6b229b1879745398268aea8b",
+      "contains_images": false,
+      "images": 12,
+      "images_unlabelled": 0,
+      "images_all_tags": 12,
+      "shapes_by_label": {
+        "crosswalk": 2,
+        "drivable": 25,
+        "lane": 28,
+        "traffic_light": 12,
+        "traffic_sign": 6
+      }
+    },
+    {
+      "file": "dinhhonghai-fisheye.zip",
+      "bytes": 20343,
+      "sha256": "e9c4f4e4af326280c6b9746f59b7ed62fcaf613f79d4f6aa611e6809aaf11e4b",
+      "contains_images": false,
+      "images": 8,
+      "images_unlabelled": 0,
+      "images_all_tags": 7,
+      "shapes_by_label": {
+        "crosswalk": 8,
+        "drivable": 8,
+        "lane": 6,
+        "traffic_light": 1,
+        "traffic_sign": 2
+      }
+    }
+  ],
+  "lint": {
+    "nặng": 5,
+    "chính": 1,
+    "nhẹ": 3
+  },
+  "note": "Tạo bởi road_check lint. Mô tả file đã gửi, không phải kết luận chất lượng."
+}
